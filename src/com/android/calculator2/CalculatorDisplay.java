@@ -26,7 +26,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.LinearLayout;
-import android.widget.Toolbar;
+
+import androidx.appcompat.widget.Toolbar;
 
 public class CalculatorDisplay extends LinearLayout
         implements AccessibilityManager.AccessibilityStateChangeListener {
@@ -58,7 +59,7 @@ public class CalculatorDisplay extends LinearLayout
     private final AccessibilityManager mAccessibilityManager;
     private final GestureDetector mTapDetector;
 
-    private Toolbar mToolbar;
+    private androidx.appcompat.widget.Toolbar mToolbar;
     private Transition mTransition;
 
     private boolean mForceToolbarVisible;
