@@ -23,6 +23,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.PointF;
 import android.graphics.Rect;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
 import androidx.core.view.ViewCompat;
@@ -32,6 +33,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import androidx.core.view.ViewCompat;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -264,7 +267,9 @@ public class DragLayout extends ViewGroup {
 
     private void updateExclusionRects() {
         mExclusionRects.add(0, mHitRect);
-        setSystemGestureExclusionRects(mExclusionRects);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            setSystemGestureExclusionRects(mExclusionRects);
+        }
     }
 
     /**
