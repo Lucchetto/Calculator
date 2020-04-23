@@ -24,11 +24,11 @@
     app:rowCount="5"
     app:columnCount="1">
 
-    <ImageButton
+    <Button
         android:id="@+id/del"
-        style="@style/PadButtonStyle.Operator"
+        style="@style/PadButtonStyle.Operator.Text"
         android:contentDescription="@string/desc_del"
-        android:src="@drawable/ic_del"
+        android:text="@string/del"
         app:layout_row="0"
         app:layout_column="0" />
 
