@@ -17,10 +17,8 @@
 
 <resources>
 
-    <style name="Theme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/calculator_primary_color</item>
+    <style name="Theme" parent="RevengeOSTheme.DayNight">
         <item name="colorAccent">@color/calculator_accent_color</item>
-        <item name="android:statusBarColor">@color/calculator_accent_color</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
     </style>
 

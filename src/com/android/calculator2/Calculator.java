@@ -527,8 +527,6 @@ public class Calculator extends AppCompatActivity
                         ContextCompat.getColor(this, R.color.display_formula_text_color));
                 mResultText.setTextColor(
                         ContextCompat.getColor(this, R.color.display_result_text_color));
-                getWindow().setStatusBarColor(
-                        ContextCompat.getColor(this, R.color.calculator_statusbar_color));
             }
 
             invalidateOptionsMenu();

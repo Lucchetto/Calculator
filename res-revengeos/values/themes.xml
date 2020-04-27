@@ -17,14 +17,17 @@
  */
 -->
 <resources>
-    <color name="gradient_start">@color/gradient_start_dark</color>
-    <color name="gradient_end">@color/gradient_end_dark</color>
 
-    <color name="background">#000</color>
-    <color name="control_normal">#FFF</color>
-    <color name="text_primary">#FFF</color>
-    <color name="text_translucent_45">#73FFFFFF</color>
-    <color name="text_translucent_50">#BDFFFFFF</color>
+    <style name="RevengeOSThemeBase.DayNight" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryDark">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="colorControlNormal">@color/control_normal</item>
+    </style>
 
+    <style name="RevengeOSTheme.DayNight" parent="RevengeOSThemeBase.DayNight">
+        <item name="android:statusBarColor">#000</item>
+    </style>
 
 </resources>

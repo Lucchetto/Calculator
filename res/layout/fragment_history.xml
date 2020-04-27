@@ -31,8 +31,6 @@
         android:minHeight="?android:attr/actionBarSize"
         app:navigationContentDescription="@string/desc_navigate_up"
         app:navigationIcon="?android:attr/homeAsUpIndicator"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:title="@string/title_history" />
 
     <androidx.recyclerview.widget.RecyclerView

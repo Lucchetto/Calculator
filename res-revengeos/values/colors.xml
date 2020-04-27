@@ -26,6 +26,10 @@
     <color name="gradient_end">@color/gradient_end_light</color>
 
     <color name="background">#FFF</color>
+    <color name="control_normal">#000</color>
+    <color name="text_primary">#000</color>
+    <color name="text_translucent_45">#73000000</color>
+    <color name="text_translucent_50">#BD000000</color>
 
 
 </resources>
