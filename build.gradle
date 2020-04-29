@@ -48,7 +48,7 @@ android {
 
     sourceSets {
         main {
-            res.srcDirs = ['res', 'res-revengeos']
+            res.srcDirs = ['res-revengeos', 'res']
             java.srcDirs = ['src', 'src-bind']
             assets.srcDirs = ['assets']
             manifest.srcFile 'AndroidManifest.xml'

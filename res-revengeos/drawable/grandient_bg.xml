@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
  * Copyright (C) 2020 RevengeOS
@@ -16,15 +16,9 @@
  * limitations under the License.
  */
 -->
-<resources>
-
-    <color name="gradient_start">@color/gradient_start_light</color>
-    <color name="gradient_end">@color/gradient_end_light</color>
-
-    <color name="background">#FFF</color>
-    <color name="control_normal">#000</color>
-    <color name="text_primary">#000</color>
-    <color name="text_translucent_45">#73000000</color>
-    <color name="text_translucent_50">#BD000000</color>
-
-</resources>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="45"
+        android:startColor="@color/gradient_start"
+        android:endColor="@color/gradient_end"/>
+</shape>
