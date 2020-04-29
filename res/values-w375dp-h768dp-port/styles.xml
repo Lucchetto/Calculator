@@ -17,6 +17,10 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <style name="Display">
+        <item name="android:elevation">0dp</item>
+    </style>
+
     <style name="PadButtonStyle.Advanced">
         <item name="android:background">@drawable/pad_button_advanced_background</item>
         <item name="android:textColor">@color/pad_button_advanced_text_color</item>
@@ -46,6 +50,7 @@
     </style>
 
     <style name="PadLayoutStyle.Advanced">
+        <item name="android:elevation">4dip</item>
         <item name="android:layout_height">0dip</item>
         <item name="android:layout_weight">264</item>
         <item name="android:paddingTop">8dip</item>

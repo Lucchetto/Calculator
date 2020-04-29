@@ -20,7 +20,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/pad_advanced"
     style="@style/PadLayoutStyle.Advanced"
-    android:background="@drawable/grandient_bg"
+    android:background="@drawable/grandient_bg_rounded"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
     app:rowCount="3"
     app:columnCount="5">
 

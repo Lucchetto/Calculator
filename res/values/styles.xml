@@ -17,6 +17,10 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <style name="Display">
+        <item name="android:elevation">4dp</item>
+    </style>
+
     <style name="DisplayTextStyle" parent="@android:style/Widget.Material.Light.TextView">
         <item name="android:cursorVisible">false</item>
         <item name="android:fontFamily">sans-serif-light</item>
