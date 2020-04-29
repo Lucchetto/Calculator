@@ -54,16 +54,13 @@
     <color name="pad_button_advanced_text_color">#000</color>
 
     <!-- Ripple color when a button is pressed in a pad. -->
-    <color name="pad_button_ripple_color">#33FFFFFF</color>
-
-    <!-- Ripple color when a button is pressed in a pad. -->
     <color name="pad_button_advanced_ripple_color">#1A000000</color>
 
     <!-- Background color for empty history view. -->
     <color name="empty_history_color">@color/background</color>
 
-    <color name="gradient_start_light">?attr/colorAccent</color>
-    <color name="gradient_start_dark">?attr/colorAccent</color>
+    <color name="gradient_start_light">@color/calculator_accent_color</color>
+    <color name="gradient_start_dark">@color/calculator_accent_color</color>
     <color name="gradient_end_light">@color/calculator_secondary_accent_color</color>
     <color name="gradient_end_dark">@color/calculator_secondary_accent_color</color>
 
