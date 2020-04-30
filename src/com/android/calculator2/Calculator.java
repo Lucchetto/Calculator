@@ -64,6 +64,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.appcompat.app.ActionBar;
@@ -74,6 +75,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import com.android.calculator2.CalculatorFormula.OnTextSizeChangeListener;
+import com.revengeos.utils.ThemeUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -356,6 +358,7 @@ public class Calculator extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ThemeUtils.setThemeMode(ThemeUtils.getThemeModeValue(this));
 
         setContentView(R.layout.activity_calculator_main);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
@@ -1287,6 +1290,8 @@ public class Calculator extends AppCompatActivity
             case R.id.menu_licenses:
                 startActivity(new Intent(this, Licenses.class));
                 return true;
+            case R.id.menu_theme:
+                ThemeUtils.showThemeDialog(this);
             default:
                 return super.onOptionsItemSelected(item);
         }
