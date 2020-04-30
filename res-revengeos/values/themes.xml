@@ -18,7 +18,7 @@
 -->
 <resources>
 
-    <style name="RevengeOSThemeBase.DayNight" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="RevengeOSThemeBase.DayNight" parent="Theme.AppCompat.DayNight">
         <item name="android:colorBackground">@color/background</item>
         <item name="colorPrimary">@color/background</item>
         <item name="colorPrimaryDark">@color/background</item>
