@@ -64,4 +64,6 @@
     <color name="gradient_end_light">@color/calculator_secondary_accent_color</color>
     <color name="gradient_end_dark">@color/calculator_secondary_accent_color</color>
 
+    <color name="ic_launcher_background">#F0F0F0</color>
+
 </resources>
